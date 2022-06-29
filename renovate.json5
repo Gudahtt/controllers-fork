@@ -3,7 +3,6 @@
   "branchPrefix": 'renovate/',
   "dependencyDashboard": true,
   "gitAuthor": 'Renovate Bot <bot@renovateapp.com>',
-  "enableHttp2": true,
   "lockFileMaintenance": { "enabled": true },
   "packageRules": [
     {
