@@ -21,6 +21,7 @@ module.exports = {
   postUpdateOptions: ['yarnDedupeHighest'],
   prConcurrentLimit: 5,
   rangeStrategy: 'update-lockfile',
+  repositories: ['Gudahtt/controllers-fork'],
   stabilityDays: 30,
 
   // Self-Hosted configuration
