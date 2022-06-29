@@ -4,6 +4,7 @@
   "dependencyDashboard": true,
   "github-actions": { "enabled": false },
   "gitAuthor": 'Renovate Bot <bot@renovateapp.com>',
+  "ignoreScripts": true,
   "includeForks": true, // temporary
   // "lockFileMaintenance": { "enabled": true },
   "packageRules": [
