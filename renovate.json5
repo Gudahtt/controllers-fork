@@ -12,7 +12,6 @@
       "groupSlug": 'all-minor-patch',
     },
   ],
-  "postUpdateOptions": ['yarnDedupeHighest'],
   "prConcurrentLimit": 5,
   "repositories": ['Gudahtt/controllers-fork'],
   "stabilityDays": 30,
