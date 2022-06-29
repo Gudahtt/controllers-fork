@@ -28,4 +28,7 @@ module.exports = {
   allowScripts: false,
   platform: 'github',
   onboarding: false,
+
+  // testing
+  includeForks: true,
 };
