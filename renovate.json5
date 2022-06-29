@@ -6,11 +6,6 @@
   "lockFileMaintenance": { "enabled": true },
   "packageRules": [
     {
-      "matchPackagePatterns": ['^eslint'],
-      "matchUpdateTypes": ['major'],
-      "groupName": 'ESLint packages',
-    },
-    {
       "matchPackagePatterns": ['*'],
       "matchUpdateTypes": ['minor', 'patch'],
       "groupName": 'all non-major dependencies',
