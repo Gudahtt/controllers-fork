@@ -19,7 +19,7 @@
     },
   ],
   // "postUpdateOptions": ['yarnDedupeHighest'],
-  "prConcurrentLimit": 5,
+  "prConcurrentLimit": 2,
   // "rangeStrategy": 'update-lockfile',
   "repositories": ['Gudahtt/controllers-fork'],
   "stabilityDays": 30,
