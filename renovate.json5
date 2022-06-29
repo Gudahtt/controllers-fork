@@ -2,6 +2,7 @@
   // Configuration
   "branchPrefix": 'renovate/',
   "dependencyDashboard": true,
+  "github-actions": { "enabled": false },
   "gitAuthor": 'Renovate Bot <bot@renovateapp.com>',
   "includeForks": true, // temporary
   // "lockFileMaintenance": { "enabled": true },
