@@ -24,7 +24,8 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "postUpgradeTasks": {
     "commands": ["allow-scripts auto"],
-    "fileFilters": ["yarn.lock"]
+    "fileFilters": ["package.json"],
+    "executionMode": "update"
   },
   "prConcurrentLimit": 10,
   "rangeStrategy": "update-lockfile",
@@ -33,6 +34,7 @@
   "stabilityDays": 30,
   // Self-Hosted configuration
   allowScripts: false,
+  allowedPostUpgradeCommands: ['allow-scripts auto'],
   customEnvVariables: {
     SKIP_ALLOW_SCRIPTS: 'true',
   },
