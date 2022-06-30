@@ -123,7 +123,7 @@
       "@lavamoat/preinstall-always-fail": false,
       "@keystonehq/bc-ur-registry-eth>hdkey>secp256k1": true,
       "babel-runtime>core-js": false,
-      "eth-sig-util>ethereumjs-abi>ethereumjs-util>keccakjs>sha3": true,
+      "eth-sig-util>ethereumjs-abi>ethereumjs-util>keccakjs>sha3": false,
       "eth-sig-util>ethereumjs-util>keccak": true,
       "eth-sig-util>ethereumjs-util>secp256k1": true,
       "ethereumjs-util>ethereum-cryptography>keccak": true,
