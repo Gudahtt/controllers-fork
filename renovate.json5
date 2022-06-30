@@ -10,15 +10,14 @@
   "lockFileMaintenance": { "enabled": true },
   "packageRules": [
     {
-      "matchPackagePatterns": ["^eslint"],
+      "matchPackagePatterns": ["^@metamask/"],
       "matchUpdateTypes": ["major"],
-      "groupName": "ESLint packages",
+      "groupName": "MetaMask major updates",
     },
     {
-      "matchPackagePatterns": ["*"],
+      "matchPackagePatterns": ["^@metamask/"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch",
+      "groupName": "MetaMask non-major updates",
     },
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
