@@ -22,6 +22,10 @@
     },
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
+  "postUpgradeTasks": {
+    "commands": ["allow-scripts auto"],
+    "fileFilters": ["yarn.lock"]
+  },
   "prConcurrentLimit": 2,
   "rangeStrategy": "update-lockfile",
   "repositories": ["Gudahtt/controllers-fork"],
