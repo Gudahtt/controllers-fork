@@ -127,7 +127,21 @@
       "eth-sig-util>ethereumjs-util>keccak": true,
       "eth-sig-util>ethereumjs-util>secp256k1": true,
       "ethereumjs-util>ethereum-cryptography>keccak": true,
-      "ethereumjs-util>ethereum-cryptography>secp256k1": true
+      "ethereumjs-util>ethereum-cryptography>secp256k1": true,
+      "eth-json-rpc-infura>eth-json-rpc-middleware>ethereumjs-util>keccak": false,
+      "eth-json-rpc-infura>eth-json-rpc-middleware>ethereumjs-util>secp256k1": false,
+      "web3-provider-engine>ethereumjs-block>ethereumjs-tx>ethereumjs-util>keccak": false,
+      "web3-provider-engine>ethereumjs-block>ethereumjs-tx>ethereumjs-util>secp256k1": false,
+      "web3-provider-engine>ethereumjs-block>ethereumjs-util>keccak": false,
+      "web3-provider-engine>ethereumjs-block>ethereumjs-util>secp256k1": false,
+      "web3-provider-engine>ethereumjs-util>keccak": false,
+      "web3-provider-engine>ethereumjs-util>secp256k1": false,
+      "web3-provider-engine>ethereumjs-vm>ethereumjs-account>ethereumjs-util>keccak": false,
+      "web3-provider-engine>ethereumjs-vm>ethereumjs-account>ethereumjs-util>secp256k1": false,
+      "web3-provider-engine>ethereumjs-vm>ethereumjs-block>ethereumjs-util>keccak": false,
+      "web3-provider-engine>ethereumjs-vm>ethereumjs-block>ethereumjs-util>secp256k1": false,
+      "web3-provider-engine>ethereumjs-vm>merkle-patricia-tree>ethereumjs-util>keccak": false,
+      "web3-provider-engine>ethereumjs-vm>merkle-patricia-tree>ethereumjs-util>secp256k1": false
     }
   }
 }
