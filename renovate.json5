@@ -31,4 +31,11 @@
   "repositories": ["Gudahtt/controllers-fork"],
   "skipInstalls": false,
   "stabilityDays": 30,
+  // Self-Hosted configuration
+  allowScripts: false,
+  customEnvVariables: {
+    SKIP_ALLOW_SCRIPTS: 'true',
+  },
+  platform: 'github',
+  onboarding: false,
 }
