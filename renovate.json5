@@ -1,29 +1,30 @@
 {
   // Configuration
-  "branchPrefix": 'renovate/',
+  "branchPrefix": "renovate/",
   "dependencyDashboard": true,
   "github-actions": { "enabled": false },
-  "gitAuthor": 'Renovate Bot <bot@renovateapp.com>',
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
   "ignoreScripts": true,
   "includeForks": true, // temporary
+  "internalChecksFilter": "strict",
   // "lockFileMaintenance": { "enabled": true },
   "packageRules": [
     // {
-    //   "matchPackagePatterns": ['^eslint'],
-    //   "matchUpdateTypes": ['major'],
-    //   "groupName": 'ESLint packages',
+    //   "matchPackagePatterns": ["^eslint"],
+    //   "matchUpdateTypes": ["major"],
+    //   "groupName": "ESLint packages",
     // },
     {
-      "matchPackagePatterns": ['*'],
-      "matchUpdateTypes": ['minor', 'patch'],
-      "groupName": 'all non-major dependencies',
-      "groupSlug": 'all-minor-patch',
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
     },
   ],
-  // "postUpdateOptions": ['yarnDedupeHighest'],
+  // "postUpdateOptions": ["yarnDedupeHighest"],
   "prConcurrentLimit": 2,
-  // "rangeStrategy": 'update-lockfile',
-  "repositories": ['Gudahtt/controllers-fork'],
+  // "rangeStrategy": "update-lockfile",
+  "repositories": ["Gudahtt/controllers-fork"],
   "skipInstalls": false,
   "stabilityDays": 30,
 }
