@@ -24,5 +24,6 @@
   "prConcurrentLimit": 2,
   // "rangeStrategy": 'update-lockfile',
   "repositories": ['Gudahtt/controllers-fork'],
+  "skipInstalls": false,
   "stabilityDays": 30,
 }
